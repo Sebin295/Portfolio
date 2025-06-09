@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f6e0b5;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(90deg, #aa6f73, #eea990);
+  padding: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+nav {
+  background-color: #a39193;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  border-bottom: 2px solid #aa6f73;
+  padding-bottom: 0.5rem;
+  color: #66545e;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills-list li {
+  background: #a39193;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.project, .education-item {
+  background: #fff;
+  padding: 1rem;
+  border-left: 5px solid #aa6f73;
+  margin-top: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #aa6f73;
+  color: #fff;
+}
